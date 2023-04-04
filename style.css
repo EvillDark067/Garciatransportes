@@ -43,6 +43,12 @@ body{
     
 }
 
+.main_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 #logo2{
     
     position: absolute;
