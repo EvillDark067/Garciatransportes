@@ -1,58 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+li {
+
+    list-style: none;
+}
+
 body{
    
     background-size: 100%;
     background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.container{
-background-color: #fcfcfc;
-font-family: Arial, Helvetica, sans-serif;
-display: flex;
-justify-content: center;
-flex-direction: center;
-font-weight: bold;
-padding: 20px;
+.header{
 
-
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    font-weight: bold;
+    padding: 8px;
 
 }
-.box1, .box2, .box3{
-    width: 200px;
-    height: 20px;
+
+#logo{
+    /* position: absolute;
+    left:7px;
+    top: 8px; */
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #fcfcfc;
+    gap: 10px;
+    height: 70px;
+    width: 100%;
+    padding: 0 40px;
     
+}
+
+li{
+
+
+}
+#logo2{
+    
+    position: absolute;
+    left: 1100px;
+    bottom: -15%;
 
 }
 
 #ban{
-width: 626px;
-height: 240px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
+    width: 626px;
+    height: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 
-font-size: 82px;
-line-height: 80px;
-letter-spacing: -4px;
-color: #ffffff;
-    display: center;
-    flex-direction: center;
-    justify-content: start;
-    align-items: center;
-}
+    font-size: 82px;
+    line-height: 80px;
+    letter-spacing: -4px;
+    color: #ffffff;
+        display: center;
+        flex-direction: center;
+        justify-content: start;
+        align-items: center;
+    }
 
-#ban2{
-width: 443px;
-height: 60px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-letter-spacing: -1px;
-color: #D5D5D6;
-flex: none;
-order: 1;
-flex-grow: 0;
-}
+    #ban2{
+    width: 443px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #D5D5D6;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    }
 
 #ban3{
     width: 443px;
@@ -69,24 +108,8 @@ flex-grow: 0;
     flex-grow: 0;
     }
 
-#logo{
-position: absolute;
-left:7px;
-top: 8px;
-
-}
-
-#logo2{
-
-    position: absolute;
-    left: 1100px;
-    bottom: -15%;
-
-}
 
 .logocenter{
 
     
-
-
 }
