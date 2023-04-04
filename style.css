@@ -47,8 +47,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 86px);
 
 }
+
+.sobre {
+    background-color: #fcfcfc;
+    height: 100vh;
+}
+
 #logo2{
     
     position: absolute;
