@@ -31,12 +31,6 @@ body{
 
 }
 
-#logo{
-    /* position: absolute;
-    left:7px;
-    top: 8px; */
-}
-
 .menu{
     display: flex;
     align-items: center;
@@ -49,10 +43,6 @@ body{
     
 }
 
-li{
-
-
-}
 #logo2{
     
     position: absolute;
@@ -91,7 +81,7 @@ li{
     order: 1;
     flex-grow: 0;
     
-    }
+}
 
 #ban3{
     width: 443px;
@@ -106,7 +96,7 @@ li{
     flex: none;
     order: 1;
     flex-grow: 0;
-    }
+ }
 
 
 .logocenter{
