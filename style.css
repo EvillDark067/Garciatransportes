@@ -45,10 +45,11 @@ body{
 
 .main_logo{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: end;
     height: calc(100vh - 86px);
-
+    margin-right: 100px;
+    padding: 100px;
 }
 
 .sobre {
