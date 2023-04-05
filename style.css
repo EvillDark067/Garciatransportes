@@ -28,7 +28,10 @@ body{
     flex-direction: center;
     font-weight: bold;
     padding: 8px;
-
+}
+.header div:hover{
+    border: 10px solid rgb(0, 0, 0);
+    transform: scale(1.5); 
 }
 
 .menu{
@@ -44,10 +47,10 @@ body{
 }
 
 .menu li:hover{
-    border: 10px solid rgb(255, 255, 255);
+            border: 10px solid rgb(255, 255, 255);
             transform: scale(1.5); 
             box-shadow: 0 5px 15px rgba(0,0,0,0.6);
-            border-radius: 10px;
+            border-radius: 3px;
     
 }
 
