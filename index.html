@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+  <head>
+    <title>Meu Mapa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC01fG8v4Ls5kv7M5GF9rlGJTWWXM6VA4M&callback=initMap"></script>
+    <script src="map.js"></script>
 
-    <title>Garcia Transportes</title>
 
-</head>
-
-<body>
-
-    
+  </head>
+  <body>
     <div class="header">  
         <div id="logo">
             <img src="gt3.png" width="60px">
@@ -26,9 +21,10 @@
         <ul class="menu">
             <li><a href="horarios.html">PARCERIAS </a></li>
             <li><a href="veiculos.html">VEICULOS </a></li>
-            <li><a href="veiculos.html">HORARIOS </a></li>
+            <li><a href="horarios.html">HORARIOS </a></li>
         </ul>
     </div>
+    
     <div id="ban2">
         <h3>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -37,22 +33,17 @@
 
     </div>
     <div class="main_logo">
-        <img src="gt3.png" width="500px">
+        <img src="gt10.png" width="500px">
     </div>
-
-    <div class="sobre">
-        <img src="carros.jpg" width="100%">
-        <p>História da empresa</p>    
-        <h3>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Reprehenderit est, error sed consectetur nam recusandae exercitationem autem quasi odit voluptate facilis minus,
-             nemo reiciendis illum. Quidem aperiam rem debitis aspernatur?
-        </h3>
-        <div class="bloco">
+    
+    <div class="bloco">
             <img src="tax.png" alt="">
         </div>    
     </div>
-    
-</body>
+    <hr>
+    <div id="map"></div>
 
+    <div>   <center><button onclick="initMap()">Minha Localização</button></center>
+    </div>
+  </body>
 </html>

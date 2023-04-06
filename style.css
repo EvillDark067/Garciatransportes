@@ -6,7 +6,7 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -53,34 +53,24 @@ body{
     border-radius: 3px;
     
 }
-
-.main_logo{
+.main_logo img{
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: end;
-    height: calc(100vh - 86px);
-    margin-right: 100px;
-    padding: 40px;
+    margin-left: 70%;
+    padding: 0px;
     
-}
+    
+    
+    
+    
 
+
+}
 /* .sobre {
     background-color: #fcfcfc;
     height: 100vh;
 } */
-.sobre img{
-    
-    opacity: 50%;
-    
-}
-
-#logo2{
-    
-    position: absolute;
-    left: 1100px;
-    bottom: -15%;
-
-}
 
 #ban{
     width: 62px;
@@ -137,11 +127,11 @@ body{
    }
    .bloco {
     position: absolute;
-    bottom: 0;
-    width: 250px;
-    margin: 15px;
-    animation: bloco-animation 2s infinite;
-    padding: 30px;
+    width: 200px;
+    margin-bottom: 1px;
+    animation: bloco-animation 4s infinite;
+    padding: 3px;
+
     
    }
    .bloco img{
@@ -160,3 +150,20 @@ body{
         right: 100%;
     }
 }
+#map {
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  hr{
+    margin-bottom: 100px;
+  }
